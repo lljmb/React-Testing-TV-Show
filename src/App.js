@@ -49,6 +49,7 @@ export default function App() {
 
   return (
     <div className="App" data-testid="app">
+      <h1>Let's Get Weird!</h1>
       <img className="poster-img" src={show.image.original} alt={show.name} />
       <h1>{show.name}</h1>
       {parse(show.summary)}
